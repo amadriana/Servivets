@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+    background: transparent;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-logo {
+    font-size: 2.5rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-item {
+    margin: 0 1rem;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+  }
+  
+  .menu-link:hover {
+    color: #007bff;
+  }
+  
+  .dropdown-menu {
+    list-style: none;
+    position: absolute;
+    background: white;
+    padding: 0.5rem;
+    display: none;
+  }
+  
+  .dropdown-menu.open {
+    display: block;
+  }
+  
+  .dropdown-menu-item {
+    margin: 0.5rem 0;
+  }
+  
+  .dropdown-menu-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-menu-link:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  
+    .menu-item {
+      margin: 1rem 0;
+      text-align: center;
+    }
+  }
+  
