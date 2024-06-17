@@ -10,19 +10,13 @@ body {
     padding: 1rem 2rem;
     position: relative;
     z-index: 4; 
-  }
+}
 
-  .navbar-logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #333; /* Color del texto si se aplica */
-  }
   
-  .logo-img {
-    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin-right: 10px; /* Espacio entre el logo y el texto, ajusta según necesites */
+  .navbar-logo {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-decoration: none;
   }
   
   .menu-icon {
