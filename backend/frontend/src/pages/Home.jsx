@@ -3,14 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Home.css';
-import BackgroundSlider from '../componentes/BackgroundSlider.jsx';
+import BackgroundSlider from '../components/BackgroundSlider.jsx';
 
 
 const Home = () => {
-
-
   return (
-
     <div className="App">
       <BackgroundSlider />
     </div>

@@ -7,22 +7,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0rem 1rem;
     position: relative;
     z-index: 4; 
   }
 
-  .navbar-logo {
+  .logo-navbar{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #333; /* Color del texto si se aplica */
-  }
-  
-  .logo-img {
-    width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin-right: 10px; /* Espacio entre el logo y el texto, ajusta según necesites */
+    max-width: 25%;
+    max-height: 25%;
   }
   
   .menu-icon {
@@ -40,7 +35,8 @@ body {
   }
   
   .menu-item {
-    margin: 0 1rem;
+    margin: 0 rem;
+    margin-right: 20px; 
   }
   
   .menu-link {
@@ -50,7 +46,7 @@ body {
   }
   
   .menu-link:hover {
-    color: #007bff;
+    color: #a5d0ff;
   }
   
   .dropdown-menu {

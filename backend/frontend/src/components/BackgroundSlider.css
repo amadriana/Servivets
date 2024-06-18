@@ -25,15 +25,23 @@
     z-index: 2; 
 }
 
+.description h1 {
+    font-size: 5rem;
+    color: rgb(255, 212, 250);
+}
+.description p {
+    font-size: 1.5rem;
+}
+
 .carousel-bullet {
     position: absolute;
-    bottom: 20px; /* Ajusta según necesites */
+    bottom: -80px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     width: 100%;
-    z-index: 2; /* Capa para los bullets del carousel */
+    z-index: 1;
 }
 
 .carousel-bullet span {
@@ -41,13 +49,13 @@
     width: 10px;
     height: 10px;
     margin: 0 5px;
-    background-color: #fff;
+    background-color: rgb(255, 212, 250);
     border-radius: 50%;
     cursor: pointer;
 }
 
 .carousel-bullet span:hover {
-    background-color: #007bff;
+    background-color: #a5d0ff;
 }
 
 header {
@@ -55,5 +63,5 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 3; /* Capa para el Navbar */
+    z-index: 3;
 }

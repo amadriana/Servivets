@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './NavbarSesion.css';
+import imagenFondo from "../assets/logopetcare.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,23 +18,24 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <a href="#" className="navbar-logo">Logo</a>
+      <a href="#"> <img className="logo-navbar" src={imagenFondo} alt="" /> </a>
+
       <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
         ☰
       </div>
       <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <li className="menu-item">
-          <a href="#home" className="menu-link">Home</a>
+          <a href="#home" className="menu-link"> Home </a>
         </li>
         <li className="menu-item">
-          <a href="#link" className="menu-link">Link</a>
+          <a href="#link" className="menu-link"> <FontAwesomeIcon icon= {faEnvelope} /> Notificaciones </a>
         </li>
         <li
           className="menu-item dropdown"
           onMouseEnter={handleMenuEnter}
           onMouseLeave={handleMenuLeave}
         >
-          <a href="#" className="menu-link">Dropdown</a>
+          <a href="#" className="menu-link"> <FontAwesomeIcon icon={faUser} /> </a>
           <ul className={`dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
             <li className="dropdown-menu-item">
               <a href="#action/1" className="dropdown-menu-link">Action</a>

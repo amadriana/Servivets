@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './BackgroundSlider.css';
 import imageSlide from "./SliderImg";
-import Navbar from '../componentes/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 const BackgroundSlider = () => {
     const [currentState, setCurrentState] = useState(0);

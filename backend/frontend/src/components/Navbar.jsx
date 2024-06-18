@@ -1,30 +1,31 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import imagenFondo from "../assets/logopetcare.png";
+
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <nav className="navbar">
-            <a href="#" className="navbar-logo">
-                <img
-                    className="logo"
-                    src="/public/logopetcare.png"
-                    style={{ width: "80px", height: "80px" }}
-                />
-            </a>
+            <a href="#"> <img className="logo-navbar" src={imagenFondo} alt="" /> </a>
+            
             <div className="menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 ☰
             </div>
             <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
                 <li className="menu-item">
-                    <a href="#home" className="menu-link">Home</a>
+                    <a href="#home" className="menu-link"> Home </a>
                 </li>
                 <li className="menu-item">
-                    <a href="#link" className="menu-link">¿Quiénes somos?</a>
+                    <a href="#link" className="menu-link"> ¿Quiénes somos? </a>
                 </li>
                 <li className="menu-item">
-                    <a href="#" className="menu-link">Dropdown</a>
+                    <a href="#" className="menu-link">
+                        <FontAwesomeIcon icon={faUser} /> Iniciar sesión
+                    </a>
                 </li>
             </ul>
         </nav>
