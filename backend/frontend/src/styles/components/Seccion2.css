@@ -1,5 +1,5 @@
 .section2 {
-    background-color: #ffffff; /* Color de fondo gris claro */
+    background-color: #ffffff;
     padding: 50px;
     text-align: center;
     display: flex;
@@ -15,7 +15,6 @@
     background-image: url('../../assets/flecha.png');
     background-size: contain; 
     background-position: center; 
-
   }
 
   .agendar-btn {
@@ -28,11 +27,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    transition: background-color 0.3s ease;
   }
   
   .agendar-btn:hover {
-    background-color: #68d1a9; /* Cambia el color de fondo al pasar el mouse */
+    background-color: #68d1a9;
   }
 
   .fondo-section2 {
@@ -45,6 +44,8 @@
     border-radius: 40px;
     max-width: 50%;
     font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .fondo-section2::before,
@@ -71,3 +72,7 @@
     border-radius: 50%;
 }
   
+.gracias-final {
+    font-size: 1.5rem;
+    color: #0f243f;
+}

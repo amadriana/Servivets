@@ -6,6 +6,7 @@ import BackgroundSlider from '../components/BackgroundSlider.jsx';
 import Seccion1 from '../components/Secciones/Seccion1.jsx';
 import Navbar from '../components/Navbar.jsx';
 import Seccion2 from '../components/Secciones/Seccion2.jsx';
+import Footer from '../components/Secciones/Footer.jsx';
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
       <BackgroundSlider />
       <Seccion1 />
       <Seccion2 />
-
+      <Footer />
     </div>
   );
 };
