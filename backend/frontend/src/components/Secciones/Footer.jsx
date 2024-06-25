@@ -12,17 +12,14 @@ const Footer = () => {
                     <p>Estamos aquí para ayudarte, contáctanos si tienes alguna pregunta o consulta.</p>
                 </div>
                 <div className="redes-sociales">
-                    <a href="https://www.facebook.com/tuempresa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://web.facebook.com/profile.php?id=100009299818584" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFacebook} className="icono-red-social" />
                     </a>
-                    <a href="https://twitter.com/tuempresa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faTwitter} className="icono-red-social" />
                     </a>
-                    <a href="https://www.instagram.com/tuempresa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/juancamilobanguero/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} className="icono-red-social" />
-                    </a>
-                    <a href="https://www.linkedin.com/company/tuempresa" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin} className="icono-red-social" />
                     </a>
                 </div>
             </div>
