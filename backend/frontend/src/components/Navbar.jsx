@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import imagenFondo from "../assets/logopetcare.png";
+import imagenFondo from "../assets/servivets.png";
 
 
 const Navbar = () => {
