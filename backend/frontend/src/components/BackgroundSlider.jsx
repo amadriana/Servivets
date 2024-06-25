@@ -27,16 +27,13 @@ const BackgroundSlider = () => {
     return (
         <div className="container-style">
 
-            <header>
-                <Navbar />
-            </header>
 
             <div style={bgImageStyle}></div>
             <div className="transparent-background"></div>
             <div className="description">
                 <div>
-                    <h1>{imageSlide[currentState].title}</h1>
-                    <p>{imageSlide[currentState].body}</p>
+                    <h1 className="description-titulo">{imageSlide[currentState].title}</h1>
+                    <p className="description-texto">{imageSlide[currentState].body}</p>
                 </div>
                 <div className="carousel-bullet">
                     {imageSlide.map((slide, index) => (

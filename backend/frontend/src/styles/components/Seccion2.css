@@ -1,0 +1,78 @@
+.section2 {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .agendar-cita{
+    margin-top: 5%;
+    margin-right: 6%;
+    width: 30%;
+    height: 200px; 
+    background-image: url('../../assets/flecha.png');
+    background-size: contain; 
+    background-position: center; 
+  }
+
+  .agendar-btn {
+    padding: 10px 20px;
+    font-family: 'Carrois Gothic SC';
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #7fe9b6;
+    color: #0f243f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .agendar-btn:hover {
+    background-color: #68d1a9;
+  }
+
+  .fondo-section2 {
+    background-color: white;
+    padding: 4%;
+    margin: 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px;
+    max-width: 50%;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.fondo-section2::before,
+.fondo-section2::after {
+    content: '';
+    position: absolute;
+    background-color: #81ecb8bd;
+    z-index: -1;
+}
+
+.fondo-section2::before {
+    top: -20px;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.fondo-section2::after {
+    bottom: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+  
+.gracias-final {
+    font-size: 1.5rem;
+    color: #0f243f;
+}

@@ -1,0 +1,65 @@
+.section1 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.section1 p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f243f;
+    color: white;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen-container {
+    flex: 1;
+}
+
+.imagen-veterinaria {
+    max-width: 70%;
+    border-radius: 10%;
+}
+
+.fondo-section1 {
+    color: black;
+    background-color: white;
+    padding: 4%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px;
+    max-width: 50%;
+}
+
+.fondo-section1::before,
+.fondo-section1::after {
+    content: '';
+    position: absolute;
+    background-color: #0f243f;
+    z-index: -1;
+}
+
+.fondo-section1::before {
+    top: -20px;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.fondo-section1::after {
+    bottom: -30px;
+    right: -30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
