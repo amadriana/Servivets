@@ -3,6 +3,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import imagenFondo from "../assets/logopetcare.png";
+import "../styles/inicio.css";
 
 
 const Navbar = () => {
@@ -23,7 +24,7 @@ const Navbar = () => {
                     <a href="#link" className="menu-link"> ¿Quiénes somos? </a>
                 </li>
                 <li className="menu-item">
-                    <a href="#" className="menu-link">
+                    <a href="inicio" className="menu-link">
                         <FontAwesomeIcon icon={faUser} /> Iniciar sesión
                     </a>
                 </li>
